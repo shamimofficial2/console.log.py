@@ -3,7 +3,7 @@
 class console:
 
     @staticmethod
-    def log(text):
+    def log(text: str) -> str:
         print(text)
 
 console = console()
